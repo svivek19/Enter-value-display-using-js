@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'League Spartan', sans-serif;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+form{
+    background-color: #fff;
+    padding: 20px 40px;
+    border: none;
+    box-shadow: 0 0 10px 5px rgb(20, 3, 50);
+    border-radius: 15px;
+}
+h2{
+    margin: 20px 0;
+    color: rgb(5, 5, 70);
+}
+input{
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+outline: none;
+    background-color: rgba(215, 214, 214, 0.987);
+}
+button{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    background-color: royalblue;
+    margin: 0 0 20px;
+    width: 50%;
+    margin: 0 25% 20px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.err-msg{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(249, 157, 157);
+}
+
+h4{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 600;
+    width: 100%;
+}
+.display-msg{
+    text-align: center;
+    margin: 30px 0 10px;
+    font-weight: 600;
+    width: 100%;
+    font-size: 20px;
+    color: green;
+}
